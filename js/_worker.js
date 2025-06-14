@@ -965,9 +965,6 @@ async function handleSubRequest(hostnem) {
                     for (let field of requiredFields) {
                         if (!elements[field].value.trim()) {
                             throw new Error(`Harap isi ${field === 'bug' ? 'Bug' : 'Jumlah Config'}`);
-                        }
-                    }
-
                     // Construct query parameters
                     const params = new URLSearchParams({
                         type: elements.configType.value,
