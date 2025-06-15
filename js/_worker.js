@@ -256,8 +256,9 @@ async function handleSubRequest(hostnem) {
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-  <head>
+    </style>
+   </head>
+    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Sub Link Generator</title>
@@ -589,7 +590,7 @@ async function handleSubRequest(hostnem) {
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
               </svg>
-              Benxx proxy DataBase
+              Benxx Database
           </h1>
           <p class="header-subtitle">Premium Proxy Network Management System</p>
           <div class="watermark">
